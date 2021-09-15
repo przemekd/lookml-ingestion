@@ -1,0 +1,9 @@
+source:
+  type: "lookml"
+  config:
+    base_folder: ./
+    connection_to_platform_map:
+        bigquery: bigquery.dummy
+    parse_table_names_from_sql: False
+sink:
+  type: "console"
